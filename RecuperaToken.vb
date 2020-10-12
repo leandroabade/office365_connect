@@ -6,7 +6,7 @@ Sub subTest()
     'Declaranção de variáveis
     dim strTeste as String
 
-    strTeste = GetO365SPO_Token (<usuario>, <senha>, "https://<seu tennat>.sharepoint.com")
+    strTeste = GetO365SPO_Token ("<usuario>", "<senha>", "https://<seu tennat>.sharepoint.com")
 
 End Sub
 
