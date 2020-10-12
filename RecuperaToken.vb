@@ -1,9 +1,12 @@
-Option Compare Database
 Option Explicit
 
+'Exemplo de código a ser usado
 Sub subTest()
+    
+    'Declaranção de variáveis
+    dim strTeste as String
 
-    GetO365SPO_Token <usuario>, <senha>, "https://fedaa.sharepoint.com"
+    strTeste = GetO365SPO_Token (<usuario>, <senha>, "https://<seu tennat>.sharepoint.com")
 
 End Sub
 
